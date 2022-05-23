@@ -16,9 +16,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Alwafi',
-      theme: ThemeData(
-        primarySwatch: Colors.red,
-      ),
       home: HomePage(),
       debugShowCheckedModeBanner: false,
     );
